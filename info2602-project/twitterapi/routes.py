@@ -9,8 +9,8 @@ import json
 
 
 creds={}
-creds['CONSUMER_KEY']='lkUoTT55TiP27nZzzEpa2v5KM'
-creds['CONSUMER_SECRET']='6lc1Zq9ITMqlL5vGUemI5mB0QhDaXN1Hd3t0NgrbH5o5Z1BlDw'
+creds['CONSUMER_KEY']='consumerkeyremovedforsecuritypurposes'
+creds['CONSUMER_SECRET']='removedforsecuritypurposes'
 
 python_tweets=Twython(creds['CONSUMER_KEY'],creds['CONSUMER_SECRET'])
 client=Twython(creds['CONSUMER_KEY'],creds['CONSUMER_SECRET'])
